@@ -1,0 +1,46 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 16;
+}
+
+.base {
+  background-color: rgb(217, 231, 231);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.menu {
+    background-color: rgb(45, 91, 91);
+    font-size: 12px;
+    align-items: center;
+    display: flex;   
+    flex-direction: row;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+
+}
+
+.menuItem{
+  margin-left: 10px;
+  
+}
+
+.iconClick:hover{
+  border:none !important;
+ 
+}
+
+.menuItem:hover {
+  border-bottom: solid;
+  cursor: pointer;
+  color: rgb(248, 248, 172);
+  
+}
