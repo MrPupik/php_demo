@@ -2,10 +2,24 @@ body {
     color: white;
     display: flex;
     justify-content: center;
+    font-family: Abel, sans-serif;
     
 }
 
+button {
+  font-family: Abel, sans-serif;
+  font-weight: bolder;
+}
 
+option, select {
+  font-family: Abel, sans-serif
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
   
 .form-area {
@@ -17,4 +31,11 @@ body {
     width: 400px;
     justify-content: center;
     align-items: center;
+  }
+
+  .centering-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }

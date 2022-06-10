@@ -1,10 +1,44 @@
 
 .mainContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   
 }
 
+
+.tableContainer {
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Abel", sans-serif;
+}
+
+
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  /* border-style: dotted; */
+  background-color: rgba(45, 91, 61, 0.152);
+  text-align: center;
+}
+
+th {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 3px solid;
+}
+
+tr , td {
+  border: 1px solid black;
+}
+
+td, th {
+  padding: 5px ;
+}
 
 .mainStrip {
   display: flex;
@@ -26,6 +60,7 @@
 
 .photoContainer {
   display: flex;
+  margin-left: 20px;
   flex-direction: row;
   justify-content: center;
   align-items: center;  
