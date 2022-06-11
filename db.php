@@ -1,11 +1,12 @@
 <?php
 
 $conn = null;
+$password = '';
 
 function connect()
 {
-    global $conn;
-    $conn = mysqli_connect('127.0.0.1', 'root', 'Pinpazil1', 'ChefExpress');
+    global $conn, $password;
+    $conn = mysqli_connect('127.0.0.1', 'root', $password, 'ChefExpress');
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
@@ -139,3 +140,5 @@ function getOrder($on)
     $details = mysqli_fetch_array($res);
     return $details;
 }
+
+connect();
