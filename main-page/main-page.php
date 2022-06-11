@@ -23,9 +23,9 @@
 
             <?php
             $images = array(
-                "https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_1280.jpg",
-                "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_1280.jpg",
-                "https://cdn.pixabay.com/photo/2016/11/23/18/31/pasta-1854245_1280.jpg"
+                "../resources/burger.webp",
+                "../resources/salmon.webp",
+                "../resources/pasta.jpg"
             );
             for ($i = 0; $i < 3; $i++) {
                 echo "<img class=\"coverPhoto\" src=" . "\"" . $images[$i] . "\"" . "alt=\"yummy\">";
